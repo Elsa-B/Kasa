@@ -1,8 +1,6 @@
+
+
 function Accomodation(){
-    return(
-        <div>
-            <h1>Logements</h1>
-        </div>
-    )
+    return
 }
 export default Accomodation

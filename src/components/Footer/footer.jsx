@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 import Logo from '../../assets/logo.png';
 
-function Header(){
+function Footer(){
     return(
-        <header>
+        <footer>
             <div>
                 <Link to="/">
                   <img src={Logo} alt= "Logo KASA"/> 
                 </Link>
             </div>
-            <nav>
-                <Link to="/">Accueil</Link>
-                <Link to="/about">A Propos</Link>
-            </nav>
-        </header>
+            <div>
+                <p>© 2020 Kasa. All rights reserved</p>
+            </div>
+        </footer>
     )
 }
-export default Header;
+
+export default Footer;
