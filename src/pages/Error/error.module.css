@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+}
+
+div{
+    color: #FF6060;
+
+}
+
+.numero{
+    font-size: 150px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.message{
+    font-size: 20px;
+}
+
+.return{
+    color: #FF6060;
+}
+
+.line{
+    margin-top: 100px;
+    text-decoration: #FF6060;
+}
