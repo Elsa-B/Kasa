@@ -1,0 +1,16 @@
+.bannerdiv{
+    padding: 80px;
+}
+
+.bannerimg{
+    border-radius: 25px;
+    filter: brightness(60%);
+}
+
+.bannerp{
+    position:absolute;
+    top:270px;
+    left: 500px;
+    font-size:200%;
+    color: white;
+}

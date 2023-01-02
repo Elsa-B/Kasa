@@ -1,9 +1,9 @@
-function Card({ id, title, cover }) {
+function Card({title, cover }) {
     return (
-            <div>
-                <img src= {cover} alt= {title}/>
-                <p>{title}</p>
-            </div>
+        <div>
+            <img src= {cover} alt= {title}/>
+            <p>{title}</p>
+        </div>
     )
 }
 
