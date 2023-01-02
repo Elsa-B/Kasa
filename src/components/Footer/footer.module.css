@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    height: 209px;
+}
+
+footer div{
+    text-align: center;
+    padding-top: 66px;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer p{
+    color: #ffffff;
+}
