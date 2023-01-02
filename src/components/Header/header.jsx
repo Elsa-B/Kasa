@@ -11,8 +11,8 @@ function Header(){
                 </Link>
             </div>
             <nav className={Headercss.nav}>
-                <Link to="/">Accueil</Link>
-                <Link to="/about">A Propos</Link>
+                <Link className={Headercss.linkNav} to="/">Accueil</Link>
+                <Link className={Headercss.linkNav} to="/about">A Propos</Link>
             </nav>
         </header>
     )

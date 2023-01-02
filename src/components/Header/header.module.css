@@ -14,5 +14,10 @@ header nav{
     display: flex;
     justify-content: space-around;
     width: 200px;
+    
+}
+
+.linkNav{
     color: #ff6060;
+    text-decoration: none; 
 }

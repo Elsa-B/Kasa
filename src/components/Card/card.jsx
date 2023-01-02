@@ -1,8 +1,10 @@
+import CardCss from "../../components/Card/card.module.css"
+
 function Card({title, cover }) {
     return (
-        <div>
-            <img src= {cover} alt= {title}/>
-            <p>{title}</p>
+        <div className={CardCss.blocCard}>
+            <img src= {cover} alt= {title} className={CardCss.imgCard}/>
+            <p className={CardCss.titleCard}>{title}</p>
         </div>
     )
 }

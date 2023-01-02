@@ -5,7 +5,6 @@ import About from './pages/About/about';
 import Home from './pages/Home/home'
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
-import GlobalStyle from './utils/Style/globalStyle.css'
 
 function App() {
   return (
