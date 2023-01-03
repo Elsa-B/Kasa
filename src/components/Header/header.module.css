@@ -11,18 +11,28 @@ header img{
 header nav{
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 200px;
 }
 .linkNav{
     color: #ff6060;
+    font-size: larger;
     text-decoration: none; 
 }
+.linkNav:hover{
+    text-decoration: #ff6060 underline;
+}
 
-@media screen and (max-width : 375px){
+@media screen and (max-width : 376px){
     header{
         padding: 20px;
     }
     header img{
         height: 40px;
+    }
+    header nav{
+        width: 140px;
+    }
+    .linkNav{
+        font-size: medium;
     }
 }

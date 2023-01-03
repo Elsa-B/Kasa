@@ -1,18 +1,22 @@
 footer{
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: black;
-    height: 209px;
+    height: 170px;
 }
-
 footer div{
     text-align: center;
     padding-top: 66px;
 }
-
 footer img{
     width: 100px;
 }
-
 footer p{
     color: #ffffff;
+    font-size: large;
+}
+
+@media screen and (max-width : 376px){
+    footer{
+        height: 210px;
+    }
 }

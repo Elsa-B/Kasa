@@ -10,16 +10,18 @@ function Home() {
   return (
 	<>
 		<Header/>
-		<Banner/>
-			<div className={HomeCss.backCard}>
-				{Data.map((accomodation,id) => (
-					<div key={id}>
-						<Link to={`/accomodation/${accomodation.id}`}>
-							<Card cover={accomodation.cover} title={accomodation.title} />
-						</Link>
-					</div>
-				))}
-			</div>
+		<main>
+			<Banner/>
+				<div className={HomeCss.backCard}>
+					{Data.map((accomodation,id) => (
+						<div key={id} >
+							<Link to={`/accomodation/${accomodation.id}`}>
+								<Card cover={accomodation.cover} title={accomodation.title} />
+							</Link>
+						</div>
+					))}
+				</div>
+		</main>	
 		<Footer/>
 	</>
   )
