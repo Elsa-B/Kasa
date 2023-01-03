@@ -5,19 +5,24 @@ header{
     align-items: center;
     padding: 40px 80px 0 80px;
 }
-
 header img{
     height: 68px;
 }
-
 header nav{
     display: flex;
-    justify-content: space-around;
-    width: 200px;
-    
+    justify-content: space-between;
+    width: 150px;
 }
-
 .linkNav{
     color: #ff6060;
     text-decoration: none; 
+}
+
+@media screen and (max-width : 375px){
+    header{
+        padding: 20px;
+    }
+    header img{
+        height: 40px;
+    }
 }
