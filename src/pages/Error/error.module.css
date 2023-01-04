@@ -23,15 +23,14 @@ div{
 }
 
 @media screen and (max-width : 376px){
-    main{
-        margin-top: 140px;
-    }
     .numero{
+        margin-top: 140px;
         font-size: 100px;
         font-weight: 600;
     }
     .message{
-        
+        padding-left: 73px;
+        padding-right: 73px;
     }
     .line{
         margin-top: 140px;

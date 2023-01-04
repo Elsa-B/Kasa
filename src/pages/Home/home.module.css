@@ -11,6 +11,7 @@
 @media screen and (max-width : 376px){
     main{
         padding: 0;
+        margin: 0;
     }
     .backCard{
         background-color: white;
