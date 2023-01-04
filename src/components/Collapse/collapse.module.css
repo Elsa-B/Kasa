@@ -10,7 +10,7 @@
 }
 .titlecollapse{
     color: white;
-   margin-left: 25px;
+    margin-left: 25px;
 }
 .arrow{
     height: 15px;
@@ -21,4 +21,13 @@
     font-size: large;
     border-radius: 5px;
     padding: 10px 15px 1px 10px
+}
+
+@media screen and (max-width : 376px){
+    .backtext{
+        font-size: small;
+    }
+    .titlecollapse{
+        font-size: large;
+    }
 }

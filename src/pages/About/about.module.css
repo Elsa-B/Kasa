@@ -2,3 +2,9 @@
     margin: auto;
     width: 65%;
 }
+@media screen and (max-width : 376px){
+    .div{
+        width: 89%;
+        margin-top: 20px;
+    }
+}
