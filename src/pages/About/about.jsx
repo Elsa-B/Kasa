@@ -3,15 +3,18 @@ import Footer from "../../components/Footer/footer";
 import Collapse from "../../components/Collapse/collapse"
 import BannerAbout from "../../components/BannerAbout/bannerAbout";
 import AboutJson from "../../data/about.json"
+import AboutCss from "../About/about.module.css"
 
 function About(){
     return(
         <>
             <Header/>
             <BannerAbout/>
-            {AboutJson.map((about) => (
-					<Collapse title={about.title} text={about.text}  />
-				))}
+            <div className={AboutCss.div}>
+                {AboutJson.map((about,id) => (
+                        <Collapse title={about.title} text={about.text} key={id} />
+                    ))}
+            </div>
             <Footer/>
         </>
     )

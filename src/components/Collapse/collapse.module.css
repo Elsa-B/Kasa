@@ -1,0 +1,24 @@
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: #FF6060;
+}
+.space{
+    margin-bottom: 20px;
+}
+.titlecollapse{
+    color: white;
+   margin-left: 25px;
+}
+.arrow{
+    height: 15px;
+    margin: 25px;
+}
+.backtext{
+    background-color: #F6F6F6;
+    font-size: large;
+    border-radius: 5px;
+    padding: 10px 15px 1px 10px
+}
