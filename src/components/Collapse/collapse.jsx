@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ArrowUp from "../../assets/arrow_up.png"
+import ArrowDown from "../../assets/arrow_down.png"
 import CollapseCss from "../Collapse/collapse.module.css"
 
 function Collapse({title, text}){
@@ -13,11 +14,16 @@ function Collapse({title, text}){
         <div className={CollapseCss.space}>
             <div onClick={toggle} className={CollapseCss.dropdown}>
                 <h2 className={CollapseCss.titlecollapse}>{title}</h2>
-                <img src={ArrowUp} alt="flèche" className={CollapseCss.arrow}/>
+                {open ? (
+                    <img src={ArrowUp} alt="flèche" className={CollapseCss.arrow}/>)
+                    :(<img src={ArrowDown} alt="flèche" className={CollapseCss.arrow}/>
+                )}
             </div>
-            <div className={CollapseCss.backtext}>
-                <p>{text}</p>
-            </div>
+            {open && (
+                <div className={CollapseCss.backtext}>
+                    <p>{text}</p>
+                </div>
+            )}
         </div>
     )
 }
