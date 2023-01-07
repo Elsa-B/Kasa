@@ -1,6 +1,6 @@
 import Header from "../../components/Header/header";
 import { Link } from "react-router-dom";
-import ErrorCss from "../Error/error.css";
+import ErrorCss from "../Error/error.module.css";
 
 function Error(){
     return(

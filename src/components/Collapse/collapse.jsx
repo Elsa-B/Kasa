@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ArrowUp from "../../assets/arrow_up.png"
-import CollapseCss from "../Collapse/collapse.css"
+import CollapseCss from "../Collapse/collapse.module.css"
 
 function Collapse({title, text}){
     const[open, close]=useState(false);

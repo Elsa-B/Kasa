@@ -1,5 +1,5 @@
 import imgBanner from '../../assets/banner.png'
-import BannerCss from '../Banner/banner.css'
+import BannerCss from '../Banner/banner.module.css'
 
 function Banner(){
     return(
