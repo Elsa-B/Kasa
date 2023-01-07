@@ -1,16 +1,17 @@
 import { useState } from "react";
 import ArrowUp from "../../assets/arrow_up.png"
-import CollapseCss from "../Collapse/collapse.module.css"
+import CollapseCss from "../Collapse/collapse.css"
 
 function Collapse({title, text}){
     const[open, close]=useState(false);
-    const window= () => {
+    const toggle= () => {
+        console.log(open);
 		close(!open);
 	};
 
     return(
         <div className={CollapseCss.space}>
-            <div onClick={window} className={CollapseCss.dropdown}>
+            <div onClick={toggle} className={CollapseCss.dropdown}>
                 <h2 className={CollapseCss.titlecollapse}>{title}</h2>
                 <img src={ArrowUp} alt="flèche" className={CollapseCss.arrow}/>
             </div>

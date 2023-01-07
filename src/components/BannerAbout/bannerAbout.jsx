@@ -1,5 +1,5 @@
 import ImgAbout from "../../assets/banner_about.png"
-import BannerCss from "../Banner/banner.module.css"
+import BannerCss from "../Banner/banner.css"
 
 function BannerAbout(){
     return(

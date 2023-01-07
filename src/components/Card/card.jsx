@@ -1,4 +1,4 @@
-import CardCss from "../../components/Card/card.module.css"
+import CardCss from "../../components/Card/card.css"
 
 function Card({title, cover }) {
     return (

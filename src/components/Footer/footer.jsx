@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import LogoWhite from '../../assets/logowhite.png';
-import FooterCss from '../Footer/footer.module.css'
+import FooterCss from '../Footer/footer.css'
 
 function Footer(){
     return(
