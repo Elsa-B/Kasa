@@ -1,14 +1,16 @@
-//import Data from "../../data/data.json"
+import ArrowLeft from "../../assets/arrow_left.png"
+import ArrowRight from "../../assets/arrow_right.png"
+import Data from "../../data/data.json"
 
 function Carrousel(){
-    return
-        /*<div>
-		{Data.map((slide) => (
-			<div key={slide.id} >
-				<img src={slide.pictures} alt="logement" />
-			</div>
-		))}
-        </div>*/
+    return(
+        <section>
+			<img src={ArrowLeft} alt="Flèche vers la gauche"/>
+            {Data.map((picture,id) => (
+				<img key={id} src={picture} alt="Photos du logement"/>
+			))}
+            <img src={ArrowRight} alt="Flèche vers la droite"/>
+		</section>)
     
 }
 

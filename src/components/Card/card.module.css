@@ -7,6 +7,9 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.blocCard:hover{
+    transform: scale(1.02);
+}
 .imgCard{
     position:absolute;
     width: 300px;
