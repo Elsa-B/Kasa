@@ -1,11 +1,11 @@
 import Header from "../../components/Header/header";
 import Footer from "../../components/Footer/footer";
 import Carrousel from "../../components/Carrousel/carrousel"
-import Product from "../../components/ProductInfo/productInfo";
 import Collapse from "../../components/Collapse/collapse"
 import Data from "../../data/data.json"
 import { useParams } from "react-router-dom";
 import Error from "../../pages/Error/error";
+import Star from "../../components/Rating/rating"
 
 function Accomodation(){
     const {id}= useParams();
@@ -24,7 +24,23 @@ function Accomodation(){
         <Header/>
         <main>
         <Carrousel pictures={idLocation.pictures}/>
-        <Product/>
+        <section>
+            <div>
+                <h1>{idLocation.title}</h1>
+                <h2>{idLocation.location}</h2>
+                <div>{idLocation.tags.map((tag,id)=>
+                <p key={id}>
+                    {tag}
+                </p>)}</div>
+            </div>
+            <div>
+                <div>
+                    <p>{idLocation.host.name}</p>
+                    <img src={idLocation.host.picture} alt="Portrait d'un collaborateur"/>
+                </div>
+                <Star rate={idLocation.rating}/>
+            </div>
+        </section>
         <section>
             <Collapse title="Description" text={idLocation.description} key={id}/>        
             <Collapse title="Equipement" text={idLocation.equipments.map((equipment,id)=>
