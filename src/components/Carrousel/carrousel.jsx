@@ -20,7 +20,7 @@ function Carrousel({pictures}){
             {pictures.length>1 && (
 			<img src={ArrowLeft} alt="Flèche vers la gauche" onClick={goToPrevious} className="carrouselArrow arrowLeft"/>)}
             {pictures.map((picture,pictureIndex) => (
-				<div key={pictureIndex}>
+				<div key={pictureIndex} className="divImgCarrousel">
                     {pictureIndex === navigation &&( 
                     <img src={picture} alt="Vue du logement" className="carrouselImg"/>)}
                     {pictureIndex === navigation && pictures.length>1 &&(

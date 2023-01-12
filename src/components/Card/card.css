@@ -23,17 +23,19 @@
     text-align: left;
     color: white;
     font-size: 18px;
+    font-weight: 500;
     padding-left: 10px;
     margin: 0;
 }
 
 @media screen and (max-width : 376px){
     .blocCard{
+        margin: 15px 0 15px 0;
         width: 335px;
         height: 250px;
     }
     .imgCard{
         width: 335px;
-        height: 250px;
+        height: 255px;
     }
 }

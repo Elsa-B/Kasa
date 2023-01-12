@@ -8,4 +8,5 @@
 @import "../../components/Card/card.css";
 @import "../../components/Banner/banner.css";
 @import "../../components/Collapse/collapse.css";
-@import "../../components//Carrousel/carrousel.css"
+@import "../../components//Carrousel/carrousel.css";
+@import "../../components/Rating/rating.css";

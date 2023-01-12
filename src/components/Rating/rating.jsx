@@ -5,10 +5,10 @@ function Star({rate}){
     const numberOfStars = [1, 2, 3, 4, 5];
 
     return(
-        <div>
+        <div  className="mobileStar">
             {numberOfStars.map((number, id)=>
-            rate>=number ? (<img key={id} src= {RedStar} alt="Etoile rouge"/> ) 
-            : (<img key={id} src= {GreyStar} alt="Etoile grise"/> ))}
+            rate>=number ? (<img key={id} className="mobileImgStar" src= {RedStar} alt="Etoile rouge"/> ) 
+            : (<img key={id} className="mobileImgStar" src= {GreyStar} alt="Etoile grise"/>  ))}
         </div>
     )
 }

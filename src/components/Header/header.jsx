@@ -4,11 +4,9 @@ import Logo from '../../assets/logo.png';
 function Header(){
     return(
         <header>
-            <div>
-                <Link to="/">
-                  <img src={Logo} alt= "Logo KASA"/> 
-                </Link>
-            </div>
+            <Link to="/">
+                <img src={Logo} alt= "Logo KASA"/> 
+            </Link>
             <nav>
                 <Link className="linkNav" to="/">Accueil</Link>
                 <Link className="linkNav" to="/about">A Propos</Link>

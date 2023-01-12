@@ -5,7 +5,7 @@ import Collapse from "../../components/Collapse/collapse"
 import Data from "../../data/data.json"
 import { useParams } from "react-router-dom";
 import Error from "../../pages/Error/error";
-import Star from "../../components/Rating/rating"
+import Rating from "../../components/Rating/rating"
 
 function Accomodation(){
     const {id}= useParams();
@@ -33,12 +33,12 @@ function Accomodation(){
                     {tag}
                 </p>)}</div>
             </div>
-            <div>
+            <div className="mobileAccomodation">
                 <div className="accomodationCharacter">
                     <p className="accomodationNameCharacter">{idLocation.host.name}</p>
                     <img src={idLocation.host.picture} alt="Portrait d'un collaborateur" className="accomodationPicture"/>
                 </div>
-                <Star rate={idLocation.rating}/>
+                <Rating rate={idLocation.rating}/>
             </div>
         </section>
         <section className="accomodationCollapse">

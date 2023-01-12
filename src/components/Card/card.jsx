@@ -2,7 +2,7 @@ function Card({title, cover }) {
     return (
         <div className="blocCard">
             <img src= {cover} alt= {title} className="imgCard"/>
-            <p className="titleCard">{title}</p>
+            <h2 className="titleCard">{title}</h2>
         </div>
     )
 }

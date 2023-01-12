@@ -1,7 +1,5 @@
-.mainAccomodation{
-    margin: 20px 80px 0 80px;
-}
 .accomodationDescription{
+    margin: 20px 80px 0 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,8 +21,9 @@
 .accomodationTag{
     margin-right: 10px;
     padding: 4px 20px 2px 20px;
-    height: 25px;
-    border-radius: 25px;
+    height: 18px;
+    font-size: small;
+    border-radius: 10px;
     color: white;
     background-color: #FF6060;
 }
@@ -45,10 +44,57 @@
     border-radius: 100px;
 }
 .accomodationCollapse{
+    margin: 20px 60px 0 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .accomodationEquipment{
     list-style: none;
+}
+
+@media screen and (max-width : 376px){
+    .accomodationDescription{
+        margin: 10px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .accomodationh1{
+        margin: 0;    
+    }
+    .accomodationh2{
+        margin: 10px 0 0 0;
+    }
+    .accomodationTags{
+        flex-wrap: wrap;
+    }
+    .accomodationTag{
+        margin: 10px 10px 0 0;
+    }
+    .mobileAccomodation{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .accomodationCharacter{
+        margin: 0;
+    }
+    .accomodationPicture{
+        margin-top: 15px;
+        height: 32px;
+        width: 32px;
+    }
+    .accomodationNameCharacter{
+        margin: 0 10px 0 0;
+        padding-top:13px;
+        size: 12px;
+        width: 83px;
+    }
+    .accomodationCollapse{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 89%;
+    }
 }

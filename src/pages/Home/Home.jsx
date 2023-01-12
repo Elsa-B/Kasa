@@ -11,7 +11,7 @@ function Home() {
 		<Header/>
 		<main>
 			<Banner/>
-				<div className="backCard">
+				<section className="backCard">
 					{Data.map((accomodation,id) => (
 						<div key={id} >
 							<Link to={`/accomodation/${accomodation.id}`}>
@@ -19,7 +19,7 @@ function Home() {
 							</Link>
 						</div>
 					))}
-				</div>
+				</section>
 		</main>	
 		<Footer/>
 	</>

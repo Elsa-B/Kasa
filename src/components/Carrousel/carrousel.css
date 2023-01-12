@@ -1,15 +1,19 @@
 .carrouselPosition{
+    margin: 20px 80px 0 80px;
     display: flex;
     flex-direction: row;
 }
+.divImgCarrousel{
+    width: 1000px;
+}
 .carrouselImg{
-    width: 1120px;
+    width: 1000px;
     height: 415px;
     border-radius: 25px;
 }
 .carrouselArrow{
     position: absolute;
-    top: 50%;
+    top: 60%;
 }
 .arrowLeft{
     left: 8%
@@ -22,4 +26,24 @@
     top: 510px;
     right: 49%;
     color: white;
+}
+
+@media screen and (max-width : 376px){
+    .carrouselPosition{
+        margin: 20px 20px 0 20px;
+    }
+    .carrouselImg{
+        width: 335px;
+        height: 255px;
+        border-radius: 25px;
+    }
+    .carrouselArrow{
+        height: 19px;
+        width: 11px;
+        top: 27%;
+    }
+    .carrouselNumber{
+        top: 41%;
+        right: 45%;
+    }
 }
