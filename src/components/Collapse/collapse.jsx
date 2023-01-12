@@ -5,7 +5,6 @@ import ArrowDown from "../../assets/arrow_down.png"
 function Collapse({title, text}){
     const[open, close]=useState(false);
     const toggle= () => {
-        console.log(open);
 		close(!open);
 	};
 
