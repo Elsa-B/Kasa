@@ -1,9 +1,11 @@
 @import "../../pages/About/about.css";
 @import "../../pages/Error/error.css";
 @import "../../pages/Home/home.css";
+@import"../../utils/Style/main.css";
 
 @import "../../components/Header/header.css";
 @import "../../components/Footer/footer.css";
 @import "../../components/Card/card.css";
 @import "../../components/Banner/banner.css";
 @import "../../components/Collapse/collapse.css";
+@import "../../components//Carrousel/carrousel.css"

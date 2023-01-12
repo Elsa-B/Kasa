@@ -1,0 +1,27 @@
+.carrouselPosition{
+    margin: 0 80px 0 80px;
+    display: flex;
+    flex-direction: row;
+}
+.carrouselImg{
+    width: 1120px;
+    height: 415px;
+    border-radius: 25px;
+}
+.carrouselArrow{
+    position: absolute;
+    top: 50%;
+}
+.arrowLeft{
+    left: 8%
+}
+.arrowRight{
+    left: 88%;
+}
+.carrouselNumber{
+    position: absolute;
+    top: 520px;
+    right: 49%;
+    color: white;
+    
+}
