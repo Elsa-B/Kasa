@@ -6,13 +6,15 @@ function Error(){
         <>
         <Header/> 
             <main>
-                <div>
+                <section>
                     <p className="numero">404</p>
-                    <p className="message">Oups! La page que vous demandez n'existe pas.</p>
-                </div>
-                <Link className="return"to={`/`}>
-                    <p className="line">Retourner sur la page d'accueil</p>
-                </Link>
+                    <p className="message">Oups! La page que <span className="send">vous demandez n'existe pas.</span> </p>
+                </section>
+                <section>
+                    <Link className="return"to={`/`}>
+                        <p className="messageReturn">Retourner sur la page d'accueil</p>
+                    </Link>
+                </section>
             </main>
         </>
     )

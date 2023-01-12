@@ -12,19 +12,23 @@
     border-radius: 25px;
 }
 .carrouselArrow{
+    height: 79px;
+    width: 46px;
     position: absolute;
     top: 60%;
 }
 .arrowLeft{
-    left: 8%
+    left: 9%
 }
 .arrowRight{
     left: 88%;
 }
 .carrouselNumber{
     position: absolute;
+    font-weight: 500;
+    font-size: 18px;
     top: 510px;
-    right: 49%;
+    right: 48%;
     color: white;
 }
 

@@ -7,8 +7,8 @@ function Star({rate}){
     return(
         <div  className="mobileStar">
             {numberOfStars.map((number, id)=>
-            rate>=number ? (<img key={id} className="mobileImgStar" src= {RedStar} alt="Etoile rouge"/> ) 
-            : (<img key={id} className="mobileImgStar" src= {GreyStar} alt="Etoile grise"/>  ))}
+            rate>=number ? (<img key={id} className="imgStar" src= {RedStar} alt="Etoile rouge"/> ) 
+            : (<img key={id} className="imgStar" src= {GreyStar} alt="Etoile grise"/>  ))}
         </div>
     )
 }

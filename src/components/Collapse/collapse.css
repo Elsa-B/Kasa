@@ -11,6 +11,8 @@
     width: 100%;
 }
 .titlecollapse{
+    font-size: 24px;
+    font-weight: 500;
     color: white;
     margin-left: 25px;
 }
@@ -19,15 +21,15 @@
     margin: 25px;
 }
 .backtext{
-    height: 75%;
+    height: 80%;
     background-color: #F6F6F6;
-    font-size: large;
     border-radius: 5px;
-    padding: 10px 20px 1px 10px
+    padding: 10px 10px 1px 10px
 }
 .textCollapse{
+    font-size: 20px;
+    font-weight: 400;
     text-align: left;
-    padding-left: 10px;
 }
 
 @media screen and (max-width : 376px){
@@ -35,7 +37,10 @@
         font-size: small;
     }
     .titlecollapse{
-        font-size: large;
+        font-size: 18px;
         margin-top: 20px;
+    }
+    .textCollapse{
+        font-size: 12px;
     }
 }

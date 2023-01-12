@@ -9,11 +9,11 @@ function About(){
         <>
             <Header/>
             <BannerAbout/>
-            <div className="div">
+            <section className="section">
                 {AboutJson.map((about,id) => (
                         <Collapse title={about.title} text={about.text} key={id} />
                     ))}
-            </div>
+            </section>
             <Footer/>
         </>
     )
