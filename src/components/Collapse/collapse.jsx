@@ -20,7 +20,7 @@ function Collapse({title, text}){
             </div>
             {open && (
                 <div className="backtext">
-                    <p>{text}</p>
+                    <p className="textCollapse">{text}</p>
                 </div>
             )}
         </div>

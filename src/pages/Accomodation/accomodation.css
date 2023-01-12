@@ -1,0 +1,54 @@
+.mainAccomodation{
+    margin: 20px 80px 0 80px;
+}
+.accomodationDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accomodationTitle{
+    text-align: left;
+}
+.accomodationh1{
+    font-weight: 500;    
+}
+.accomodationh2{
+    font-size: large;
+    font-weight: 400;
+}
+.accomodationTags{
+    display: flex;
+    flex-direction: row;
+}
+.accomodationTag{
+    margin-right: 10px;
+    padding: 4px 20px 2px 20px;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    background-color: #FF6060;
+}
+.accomodationCharacter{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+.accomodationNameCharacter{
+    height: 52px;
+    width: 93px;
+    text-align: right;
+    margin-right: 10px;
+}
+.accomodationPicture{
+    height: 64px;
+    width: 64px;
+    border-radius: 100px;
+}
+.accomodationCollapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accomodationEquipment{
+    list-style: none;
+}

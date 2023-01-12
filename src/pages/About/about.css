@@ -1,6 +1,6 @@
 .div{
-    margin: auto;
-    width: 65%;
+    margin: 0 160px 0 160px;
+    width: 75%;
 }
 @media screen and (max-width : 376px){
     .div{

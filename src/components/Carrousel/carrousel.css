@@ -1,5 +1,4 @@
 .carrouselPosition{
-    margin: 0 80px 0 80px;
     display: flex;
     flex-direction: row;
 }
@@ -20,8 +19,7 @@
 }
 .carrouselNumber{
     position: absolute;
-    top: 520px;
+    top: 510px;
     right: 49%;
     color: white;
-    
 }

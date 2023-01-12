@@ -6,7 +6,9 @@
     background-color: #FF6060;
 }
 .space{
+    padding: 0 20px 0 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 .titlecollapse{
     color: white;
@@ -17,10 +19,15 @@
     margin: 25px;
 }
 .backtext{
+    height: 75%;
     background-color: #F6F6F6;
     font-size: large;
     border-radius: 5px;
-    padding: 10px 15px 1px 10px
+    padding: 10px 20px 1px 10px
+}
+.textCollapse{
+    text-align: left;
+    padding-left: 10px;
 }
 
 @media screen and (max-width : 376px){

@@ -22,31 +22,30 @@ function Accomodation(){
     return(
         <>
         <Header/>
-        <main>
+        <main className="mainAccomodation">
         <Carrousel pictures={idLocation.pictures}/>
-        <section>
-            <div>
-                <h1>{idLocation.title}</h1>
-                <h2>{idLocation.location}</h2>
-                <div>{idLocation.tags.map((tag,id)=>
-                <p key={id}>
+        <section className="accomodationDescription">
+            <div className="accomodationTitle">
+                <h1 className="accomodationh1">{idLocation.title}</h1>
+                <h2 className="accomodationh2">{idLocation.location}</h2>
+                <div className="accomodationTags">{idLocation.tags.map((tag,id)=>
+                <p key={id} className="accomodationTag">
                     {tag}
                 </p>)}</div>
             </div>
             <div>
-                <div>
-                    <p>{idLocation.host.name}</p>
-                    <img src={idLocation.host.picture} alt="Portrait d'un collaborateur"/>
+                <div className="accomodationCharacter">
+                    <p className="accomodationNameCharacter">{idLocation.host.name}</p>
+                    <img src={idLocation.host.picture} alt="Portrait d'un collaborateur" className="accomodationPicture"/>
                 </div>
                 <Star rate={idLocation.rating}/>
             </div>
         </section>
-        <section>
+        <section className="accomodationCollapse">
             <Collapse title="Description" text={idLocation.description} key={id}/>        
             <Collapse title="Equipement" text={idLocation.equipments.map((equipment,id)=>
-                <ul>
-                    <li key={id}>{equipment}</li>
-                </ul>)}  />
+                <li key={id} className="accomodationEquipment">{equipment}</li>
+                )}  />
         </section>
         </main>
         <Footer/>
