@@ -19,14 +19,11 @@ function Carrousel({pictures}){
         <section className="carrouselPosition">
             {pictures.length>1 && (
 			<img src={ArrowLeft} alt="Flèche vers la gauche" onClick={goToPrevious} className="carrouselArrow arrowLeft"/>)}
-            {pictures.map((picture,pictureIndex) => (
-				<div key={pictureIndex} className="divImgCarrousel">
-                    {pictureIndex === navigation &&( 
-                    <img src={picture} alt="Vue du logement" className="carrouselImg"/>)}
-                    {pictureIndex === navigation && pictures.length>1 &&(
+				<div key={navigation} className="divImgCarrousel">
+                    <img src={pictures[navigation]} alt="Vue du logement" className="carrouselImg"/>
+                    {pictures.length>1 &&(
                     <span className="carrouselNumber">{navigation +1} / {pictures.length}</span>)}
                 </div>
-			))}
             {pictures.length>1 && (
             <img src={ArrowRight} alt="Flèche vers la droite" onClick={goToNext} className="carrouselArrow arrowRight"/>)} 
 		</section>
