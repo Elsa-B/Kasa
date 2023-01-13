@@ -6,33 +6,35 @@ header{
     padding: 40px 80px 0 80px;
 }
 header img{
-    height: 68px;
+    height: 60%;
+    width: 60%;
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
+.headera{
+    width: 40%;
 }
 .linkNav{
+    padding-left: 40px;
     color: #ff6060;
-    font-size: larger;
+    font-size: 24px;
+    font-weight: 500;
     text-decoration: none; 
 }
 .linkNav:hover{
     text-decoration: #ff6060 underline;
 }
 
-@media screen and (max-width : 376px){
+@media screen and (max-width : 650px){
     header{
         padding: 20px;
     }
-    header img{
-        height: 40px;
-    }
-    header nav{
-        width: 150px;
-    }
     .linkNav{
         font-size: medium;
+        padding-left: 20px;
     }
 }
+@media screen and (max-width : 326px){
+    .linkNav{
+        padding-left: 10px;
+    }
+}
+
