@@ -1,10 +1,8 @@
-import imgBanner from '../../assets/banner.png'
-
-function Banner(){
+function Banner({picture, text}){
     return(
         <section className="bannerdiv">
-            <img src={imgBanner} alt= "Vue sur un paysage" className="bannerimg"/>
-            <h1 className="bannerh1">Chez vous, partout et ailleurs</h1>
+            <img src={picture} alt= "Vue sur un paysage" className="bannerimg"/>
+            <h1 className="bannerh1">{text}</h1>
         </section>
     )
 }
