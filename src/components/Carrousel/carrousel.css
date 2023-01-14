@@ -1,54 +1,104 @@
 .carrouselPosition{
-    margin: 20px 80px 0 80px;
     display: flex;
     flex-direction: row;
 }
 .divImgCarrousel{
-    width: 1000px;
+    width: 100%;
+    height: 500px;
 }
 .carrouselImg{
-    width: 1000px;
-    height: 415px;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
     border-radius: 25px;
 }
 .carrouselArrow{
-    height: 79px;
-    width: 46px;
     position: absolute;
-    top: 60%;
+    padding-top: 225px;
 }
 .arrowLeft{
-    left: 9%
+    padding-left: 25px;
 }
 .arrowRight{
-    left: 88%;
+    left:90%
 }
 .carrouselNumber{
     position: absolute;
     font-weight: 500;
     font-size: 18px;
-    top: 510px;
-    right: 48%;
+    padding-top: 450px;
+    left: 45%;
+    right: 45%;
     color: white;
 }
-
-@media screen and (max-width : 376px){
-    .carrouselPosition{
-        margin: 20px 20px 0 20px;
+@media screen and (max-width : 1415px){
+    .arrowRight{
+        left:87%
     }
-    .carrouselImg{
-        width: 335px;
-        height: 255px;
-        border-radius: 25px;
-    }
-    .carrouselArrow{
-        height: 19px;
-        width: 11px;
-        top: 27%;
+    .divImgCarrousel{
+        height: 470px;
     }
     .carrouselNumber{
-        top: 41%;
-        right: 45%;
-        font-size: 12px;
+        padding-top: 425px;
+    }
+}
+@media screen and (max-width : 1090px){
+    .arrowRight{
+        left:85%
+    }
+    .carrouselArrow{
+        padding-top: 170px;
+    }
+    .carrouselNumber{
+        padding-top: 370px;
+    }
+    .divImgCarrousel{
+        height: 415px;
+    }
+}
+@media screen and (max-width : 900px){
+    .arrowRight{
+        left:83%
+    }
+    .carrouselNumber{
+        padding-top: 360px;
+    }
+    .divImgCarrousel{
+        height: 400px;
+    }
+}
+@media screen and (max-width : 810px){
+    .arrowRight{
+        left:81%
+    }
+    .carrouselArrow{
+        padding-top: 150px;
+    }
+    .carrouselNumber{
+        padding-top: 330px;
+    }
+    .divImgCarrousel{
+        height: 370px;
+    }
+}
+@media screen and (max-width : 428px){
+    .divImgCarrousel{
+        padding: 40px 20px 0 20px;
+        width: 90%;
+        height: 255px;
+    }
+    .carrouselArrow{
+        height: 3%;
+        padding-top: 155px;
+    }
+    .arrowLeft{
+        padding-left: 35px;
+    }
+    .arrowRight{
+        left:87%
+    }
+    .carrouselNumber{
+        padding-top: 220px;
+        font-size: 14px;
     }
 }

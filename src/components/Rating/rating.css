@@ -4,7 +4,7 @@
     padding: 10px 0 0 8px;
 }
 
-@media screen and (max-width : 376px){
+@media screen and (max-width : 428px){
     .mobileStar{
         width: 650px;
         text-align: left;

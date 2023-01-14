@@ -15,7 +15,7 @@ footer p{
     font-size: large;
 }
 
-@media screen and (max-width : 376px){
+@media screen and (max-width : 428px){
     footer{
         height: 210px;
     }

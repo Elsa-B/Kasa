@@ -59,7 +59,7 @@
     list-style: none;
 }
 
-@media screen and (max-width : 376px){
+@media screen and (max-width : 428px){
     .accomodationDescription{
         margin: 10px 20px 0 20px;
         display: flex;

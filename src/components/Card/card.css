@@ -1,24 +1,90 @@
 .cardAccomodation{
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 .imgCard{
-    width: 265px;
-    height: 265px;
+    width: 360px;
+    height: 360px;
     border-radius: 10px;
 }
 .titleCard{
-    position:absolute;
-    width: 280px;
-    height: 52px;
+    position: absolute;
+    padding: 270px 0 0 20px;
+    width: 15%;
     text-align: left;
     color: white;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 10px;
-    margin: 200px 0 0 0;
 }
-
+@media screen and (max-width : 1583px){
+    .titleCard{
+        width: 20%;
+    }
+}
+@media screen and (max-width : 1420px){
+    .imgCard{
+        width: 330px;
+        height: 330px;
+    }
+    .titleCard{
+        padding: 250px 0 0 20px;
+    }
+}
+@media screen and (max-width : 1330px){
+    .imgCard{
+        width: 300px;
+        height: 300px;
+    }
+    .titleCard{
+        padding: 220px 0 0 20px;
+    }
+}
+@media screen and (max-width : 1240px){
+    .imgCard{
+        width: 280px;
+        height: 280px;
+    }
+    .titleCard{
+        padding: 200px 0 0 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 1180px){
+    .imgCard{
+        width: 250px;
+        height: 250px;
+    }
+    .titleCard{
+        padding: 190px 0 0 20px;
+    }
+}
+@media screen and (max-width : 1090px){
+    .imgCard{
+        width: 230px;
+        height: 230px;
+    }
+    .titleCard{
+        padding: 170px 0 0 20px;
+        width: 18%;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width : 880px){
+    .titleCard{
+        width: 35%;
+    }
+}
+@media screen and (max-width : 680px){
+    .titleCard{
+        width: 45%;
+    }
+}
+@media screen and (max-width : 528px){
+    .titleCard{
+        width: 55%;
+    }
+}
 @media screen and (max-width : 428px){
     .imgCard{
         width: 335px;

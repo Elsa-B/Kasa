@@ -8,16 +8,9 @@
     border-radius: 25px;
 }
 .blocCard{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    width: 265px;
-    height: 265px;
     margin: 20px 10px 20px 10px;
 }
-.blocCard:hover{
-    transform: scale(1.02);
-}
+
 @media screen and (max-width : 428px){
     main{
         padding: 0;
