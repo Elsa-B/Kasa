@@ -1,5 +1,5 @@
 .accomodationDescription{
-    margin: 10px 80px 0 80px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,7 +58,11 @@
 .accomodationEquipment{
     list-style: none;
 }
-
+@media screen and (max-width : 810px){
+    .accomodationTag{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width : 428px){
     .accomodationDescription{
         margin: 10px 20px 0 20px;

@@ -22,7 +22,7 @@ function Accomodation(){
     return(
         <>
         <Header/>
-        <main className="mainAccomodation">
+        <main>
         <Carrousel pictures={idLocation.pictures}/>
         <section className="accomodationDescription">
             <div className="accomodationTitle">
