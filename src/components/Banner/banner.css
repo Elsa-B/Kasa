@@ -35,9 +35,9 @@
 }
 @media screen and (max-width : 428px){
     .bannerdiv{
-        padding: 20px 20px 50px 20px;
+        padding: 18px;
         height: 110px;
-        width: 89%;
+        width: 91%;
     }
     .bannerimg{
         object-fit: cover;
@@ -56,6 +56,9 @@
     }
 }
 @media screen and (max-width : 390px){
+    .bannerdiv{
+        padding: 17px;
+    }
     .bannerimg{
         width: 100%;
     }
@@ -65,11 +68,17 @@
     }
 }
 @media screen and (max-width : 376px){
+    .bannerdiv{
+        padding: 17px;
+    }
     .bannerh1{
         width: 50%;
     }
 }
 @media screen and (max-width : 360px){
+    .bannerdiv{
+        padding: 16px;
+    }
     .bannerh1{
         width: 52%;
     }

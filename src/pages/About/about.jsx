@@ -9,12 +9,14 @@ function About(){
     return(
         <>
             <Header/>
-            <Banner picture={ImgAbout}/>
-            <section className="section">
-                {AboutJson.map((about,id) => (
-                        <Collapse title={about.title} text={about.text} key={id} />
-                    ))}
-            </section>
+            <main>
+                <Banner picture={ImgAbout} />
+                <section className="section">
+                    {AboutJson.map((about,id) => (
+                            <Collapse title={about.title} text={about.text} key={id}/>
+                        ))}
+                </section>
+            </main>
             <Footer/>
         </>
     )

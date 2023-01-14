@@ -6,7 +6,7 @@ import Home from './pages/Home/home';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path= "/accomodation/:id" element= {<Accomodation/>}/>

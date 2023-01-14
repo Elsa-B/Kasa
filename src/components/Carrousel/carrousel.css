@@ -83,13 +83,13 @@
 }
 @media screen and (max-width : 428px){
     .divImgCarrousel{
-        padding: 40px 20px 0 20px;
+        padding: 30px 20px 0 20px;
         width: 90%;
         height: 255px;
     }
     .carrouselArrow{
         height: 3%;
-        padding-top: 155px;
+        padding-top: 140px;
     }
     .arrowLeft{
         padding-left: 35px;

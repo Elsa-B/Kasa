@@ -72,9 +72,10 @@
 }
 @media screen and (max-width : 880px){
     .titleCard{
-        width: 35%;
+        width: 23%;
     }
 }
+
 @media screen and (max-width : 680px){
     .titleCard{
         width: 45%;
@@ -86,8 +87,16 @@
     }
 }
 @media screen and (max-width : 428px){
+    .cardAccomodation{
+        margin: 0px;
+    }
     .imgCard{
         width: 335px;
         height: 255px;
+    }
+    .titleCard{
+        padding: 190px 0 0 20px;
+        width: 60%;
+        font-size: 16px;
     }
 }

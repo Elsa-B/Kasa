@@ -42,11 +42,11 @@ function Accomodation(){
             </div>
         </section>
         <section className="accomodationCollapse">
-            <Collapse title="Description" text={idLocation.description} key={id}/>        
-            <Collapse title="Equipement" text={idLocation.equipments.map((equipment,id)=>
-                <li key={id} className="accomodationEquipment">{equipment}</li>
-                )}  />
-        </section>
+                <Collapse title="Description" text={idLocation.description} key={id}/>     
+                <Collapse title="Equipement" text={idLocation.equipments.map((equipment,id)=>
+                    <li key={id} className="accomodationEquipment">{equipment}</li>
+                    )}  />
+            </section>       
         </main>
         <Footer/>
         </>
