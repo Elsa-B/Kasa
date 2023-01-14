@@ -14,7 +14,7 @@ function Home() {
 			<Banner picture={imgBanner} text="Chez vous, partout et ailleurs"/>
 				<section className="backCard">
 					{Data.map((accomodation,id) => (
-						<div key={id} >
+						<div key={id} className="blocCard">
 							<Link to={`/accomodation/${accomodation.id}`}>
 								<Card cover={accomodation.cover} title={accomodation.title} />
 							</Link>

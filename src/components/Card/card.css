@@ -1,18 +1,10 @@
-.blocCard{
+.cardAccomodation{
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.blocCard:hover{
-    transform: scale(1.02);
 }
 .imgCard{
-    width: 300px;
-    height: 300px;
+    width: 265px;
+    height: 265px;
     border-radius: 10px;
 }
 .titleCard{
@@ -24,15 +16,10 @@
     font-size: 18px;
     font-weight: 500;
     padding-left: 10px;
-    margin: 0;
+    margin: 200px 0 0 0;
 }
 
-@media screen and (max-width : 376px){
-    .blocCard{
-        margin: 15px 0 15px 0;
-        width: 335px;
-        height: 250px;
-    }
+@media screen and (max-width : 428px){
     .imgCard{
         width: 335px;
         height: 255px;

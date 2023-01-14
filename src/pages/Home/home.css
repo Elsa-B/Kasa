@@ -7,7 +7,18 @@
     background-color: #F6F6F6;
     border-radius: 25px;
 }
-@media screen and (max-width : 376px){
+.blocCard{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    width: 265px;
+    height: 265px;
+    margin: 20px 10px 20px 10px;
+}
+.blocCard:hover{
+    transform: scale(1.02);
+}
+@media screen and (max-width : 428px){
     main{
         padding: 0;
         margin: 0;
@@ -17,5 +28,10 @@
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+    .blocCard{
+        margin: 15px 0 15px 0;
+        width: 335px;
+        height: 250px;
     }
 }

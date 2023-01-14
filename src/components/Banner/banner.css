@@ -35,30 +35,42 @@
 }
 @media screen and (max-width : 428px){
     .bannerdiv{
-        padding: 0 0 50px 0;
+        padding: 20px 20px 50px 20px;
         height: 110px;
+        width: 89%;
     }
     .bannerimg{
         object-fit: cover;
         border-radius: 10px;
     }
     .bannerh1{
-        padding-top: 10px;
-        font-size: 24px;
+        padding-top: 15px;
+        width: 43%;
+        font-size: 20px;
         left: 10%;
     }
 }
-@media screen and (max-width : 376px){
-    .bannerdiv{
-        width: 89%;
-        padding: 20px 20px 50px 20px;
+@media screen and (max-width :414px){
+    .bannerh1{
+        width: 44%;
     }
+}
+@media screen and (max-width : 390px){
     .bannerimg{
         width: 100%;
     }
     .bannerh1{
-        padding-top: 13px;
+        padding-top: 15px;
+        width: 48%;
+    }
+}
+@media screen and (max-width : 376px){
+    .bannerh1{
+        width: 50%;
+    }
+}
+@media screen and (max-width : 360px){
+    .bannerh1{
         width: 52%;
-        font-size: 20px;
     }
 }
