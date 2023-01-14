@@ -1,38 +1,64 @@
 .bannerdiv{
-    padding: 60px 0 50px 0; 
+    display: flex;
+    flex-direction: row;
+    padding: 35px 0 50px 0;
+    height: 200px;
+    width: 100%;
 }
 .bannerimg{
     border-radius: 25px;
     filter: brightness(90%);
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 .bannerh1{
-    position: absolute;
-    top: 47%;
-    left: 25%;
+    position:absolute;
+    width: 60%;
+    padding-top: 50px;
+    left: 21%;
     font-size:40px;
     font-weight: 500;
     color: white;
 }
 
-
-@media screen and (max-width : 376px){
+@media screen and (max-width : 978px){
+    .bannerh1{
+        padding-top: 60px;
+        font-size:30px;
+    }
+}
+@media screen and (max-width : 734px){
+    .bannerh1{
+        padding-top: 40px;
+        text-align: left;
+    }
+}
+@media screen and (max-width : 428px){
     .bannerdiv{
-        padding: 0 20px 0 20px;
+        padding: 0 0 50px 0;
+        height: 110px;
     }
     .bannerimg{
-        height: 100px;
+        object-fit: cover;
         border-radius: 10px;
     }
     .bannerh1{
-        text-align: left;
-        top: 12%;
-        left: 9%;
-        font-size: 20px;
-        width: 187px;
+        padding-top: 10px;
+        font-size: 24px;
+        left: 10%;
     }
-    .bannerimgmobile{
-        height: 100px;
+}
+@media screen and (max-width : 376px){
+    .bannerdiv{
+        width: 89%;
+        padding: 20px 20px 50px 20px;
+    }
+    .bannerimg{
+        width: 100%;
+    }
+    .bannerh1{
+        padding-top: 13px;
+        width: 52%;
+        font-size: 20px;
     }
 }
