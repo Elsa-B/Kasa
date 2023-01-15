@@ -1,16 +1,17 @@
 .cardAccomodation{
     display: flex;
     flex-direction: column;
+    justify-content:flex-end;
     margin: 10px;
 }
 .imgCard{
-    width: 360px;
-    height: 360px;
+    width: 390px;
+    height: 390px;
     border-radius: 10px;
 }
 .titleCard{
     position: absolute;
-    padding: 270px 0 0 20px;
+    padding: 0 0 20px 20px;
     width: 15%;
     text-align: left;
     color: white;
@@ -22,22 +23,22 @@
         width: 20%;
     }
 }
+@media screen and (max-width : 1510px){
+    .imgCard{
+        width: 360px;
+        height: 360px;
+    }
+}
 @media screen and (max-width : 1420px){
     .imgCard{
         width: 330px;
         height: 330px;
-    }
-    .titleCard{
-        padding: 250px 0 0 20px;
     }
 }
 @media screen and (max-width : 1330px){
     .imgCard{
         width: 300px;
         height: 300px;
-    }
-    .titleCard{
-        padding: 220px 0 0 20px;
     }
 }
 @media screen and (max-width : 1240px){
@@ -46,7 +47,6 @@
         height: 280px;
     }
     .titleCard{
-        padding: 200px 0 0 20px;
         font-size: 16px;
     }
 }
@@ -55,47 +55,46 @@
         width: 250px;
         height: 250px;
     }
-    .titleCard{
-        padding: 190px 0 0 20px;
-    }
 }
 @media screen and (max-width : 1090px){
     .imgCard{
-        width: 230px;
-        height: 230px;
+        width: 210px;
+        height: 210px;
     }
     .titleCard{
-        padding: 170px 0 0 20px;
         width: 18%;
         font-size: 13px;
     }
 }
+@media screen and (max-width : 970px){
+    .imgCard{
+        width: 180px;
+        height: 180px;
+    }
+    .titleCard{
+        padding: 0 0 15px 10px;
+        font-size: 12px;
+    }
+}
 @media screen and (max-width : 880px){
-    .titleCard{
-        width: 23%;
-    }
-}
-
-@media screen and (max-width : 680px){
-    .titleCard{
-        width: 45%;
-    }
-}
-@media screen and (max-width : 528px){
-    .titleCard{
-        width: 55%;
-    }
-}
-@media screen and (max-width : 428px){
     .cardAccomodation{
         margin: 0px;
     }
+    .imgCard{
+        width: 100%;
+        height: 300px;
+    }
+    .titleCard{
+        width: 30%;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 428px){
     .imgCard{
         width: 335px;
         height: 255px;
     }
     .titleCard{
-        padding: 190px 0 0 20px;
         width: 60%;
         font-size: 16px;
     }
