@@ -1,11 +1,15 @@
-.bannerdiv{
+.bannersection{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 35px 0 50px 0;
     height: 30%;
+    width: 100%; 
+}
+.bannerdivPicture{
     width: 100%;
+    height: 100%;
 }
 .bannerimg{
     border-radius: 25px;
@@ -35,29 +39,34 @@
         font-size:30px;
     }
 }
-@media screen and (max-width : 734px){
+@media screen and (max-width : 810px){
     .bannerdiv{
-        justify-content: left;
-    }
-    .bannerh1{
-        padding-left: 30px;
-        width: 25%;
-        font-size:20px;
-        text-align: left;
+        height: 310px;
     }
 }
 @media screen and (max-width : 428px){
-    .bannerdiv{
+    .bannersection{
+        justify-content:flex-start;
+        padding: 0;
+    }
+    .bannerdivPicture{
+        justify-content: left;
         padding: 18px;
-        height: 110px;
-        width: 91%;
     }
     .bannerimg{
         object-fit: cover;
         border-radius: 10px;
     }
     .bannerh1{
-        width: 44%;
+        padding-left: 30px;
+        width: 39%;
+        font-size:18px;
+        text-align: left;
+    }
+}
+@media screen and (max-width : 414px){
+    .bannerh1{
+        width: 41%;
     }
 }
 @media screen and (max-width : 390px){
@@ -65,12 +74,12 @@
         padding: 17px;
     }
     .bannerh1{
-        width: 48%;
+        width: 43%;
     }
 }
 @media screen and (max-width : 376px){
     .bannerh1{
-        width: 50%;
+        width: 45%;
     }
 }
 @media screen and (max-width : 360px){
@@ -78,6 +87,6 @@
         padding: 16px;
     }
     .bannerh1{
-        width: 52%;
+        width: 46%;
     }
 }
