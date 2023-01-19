@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 87%;
+    width: 86%;
     border-radius: 5px;
     background-color: #FF6060;
 }
@@ -26,8 +26,7 @@
 .backtext{
     background-color: #F6F6F6;
     border-radius: 5px;
-    width: 87%;
-    
+    width: 86%;
     height: 70%;
 }
 .textCollapse{
@@ -38,8 +37,18 @@
 }
 
 @media screen and (max-width : 1320px){
+    .titlecollapse{
+        padding-top: 5px;
+        font-size: 20px;
+    }
     .textCollapse{
-        font-size: 18px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 1080px){
+    .arrow{
+        height: 10px;
+        width: 20px;
     }
 }
 @media screen and (max-width : 810px){
@@ -47,25 +56,9 @@
         width: 100%;
     }
     .titlecollapse{
-        font-size: 20px;
-    }
-    .textCollapse{
-        font-size: 16px;
-    }
-}
-@media screen and (max-width : 428px){
-    .space{
-        width: 90%;
-        margin: 0 20px 20px 20px;
-    }
-    .backtext{
-        font-size: small;
-    }
-    .titlecollapse{
         font-size: 18px;
-        margin-top: 20px;
     }
     .textCollapse{
-        font-size: 15px;
+        font-size: 14px;
     }
 }

@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.png';
 function Header(){
     return(
         <header>
-            <Link to="/" className="headera">
+            <Link to="/">
                 <img src={Logo} alt= "Logo KASA"/> 
             </Link>
             <nav>

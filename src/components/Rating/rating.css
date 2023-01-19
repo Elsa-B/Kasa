@@ -3,22 +3,21 @@
     height: 30px;
     padding: 10px 0 0 8px;
 }
-@media screen and (max-width : 810px){
+@media screen and (max-width : 1410px){
     .imgStar{
-        padding: 40px 7px 0 0;
         width: 20px;
         height: 20px;
     }
 }
-
-@media screen and (max-width : 428px){
-    .mobileStar{
-        width: 650px;
-        text-align: left;
+@media screen and (max-width : 810px){
+    .imgStar{
+        padding: 0 7px 0 0;
     }
+}
+@media screen and (max-width : 490px){
     .imgStar{
         width: 15px;
         height: 15px;
-        padding: 26px 2px 0 0;
+        padding: 0 2px 0 0;
     }
 }

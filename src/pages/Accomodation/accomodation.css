@@ -8,7 +8,7 @@
     text-align: left;
 }
 .accomodationh1{
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 500;
     margin-bottom: 0;  
 }
@@ -18,6 +18,7 @@
     margin-top: 10px;
 }
 .accomodationTags{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
@@ -53,11 +54,23 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     width: 100%;
 }
 .accomodationEquipment{
     list-style: none;
+}
+@media screen and (max-width : 1410px){
+    .accomodationh1{
+        font-size: 24px; 
+    }
+    .accomodationh2{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 980px){
+    .accomodationh1{
+        font-size: 20px; 
+    }
 }
 @media screen and (max-width : 810px){
     .accomodationCollapse{
@@ -68,7 +81,7 @@
         font-size: 12px;
     }
 }
-@media screen and (max-width : 428px){
+@media screen and (max-width : 490px){
     .accomodationDescription{
         margin: 10px 20px 0 20px;
         display: flex;
@@ -83,9 +96,6 @@
         font-size: 14px;
         margin: 10px 0 0 0;
     }
-    .accomodationTags{
-        flex-wrap: wrap;
-    }
     .accomodationTag{
         border-radius: 7px;
         font-size: 10px;
@@ -96,6 +106,8 @@
     .mobileAccomodation{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
     }
     .accomodationCharacter{
         margin: 0;
@@ -112,11 +124,10 @@
         size: 12px;
         width: 55px;
     }
-    .accomodationCollapse{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
+}
+@media screen and (max-width : 428px){
+    .accomodationDescription{
+        margin-top: 32px;
+        
     }
 }

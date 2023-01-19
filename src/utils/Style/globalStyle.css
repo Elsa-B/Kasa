@@ -9,7 +9,7 @@ body {
 main{
   padding: 0 260px 0 260px;
 }
-@media screen and (max-width : 650px){
+@media screen and (max-width : 972px){
   main{
     padding:  0 20px 0 20px;
   }
