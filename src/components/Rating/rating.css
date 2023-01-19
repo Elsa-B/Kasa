@@ -3,6 +3,12 @@
     height: 30px;
     padding: 10px 0 0 8px;
 }
+@media screen and (max-width : 1500px){
+    .imgStar{
+        width: 25px;
+        height: 25px;
+    }
+}
 @media screen and (max-width : 1410px){
     .imgStar{
         width: 20px;

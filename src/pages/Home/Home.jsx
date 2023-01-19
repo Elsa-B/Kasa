@@ -15,8 +15,8 @@ function Home() {
 				<section className="backCard">
 					{Data.map((accomodation,id) => (
 						<div key={id} className="blocCard">
-							<Link to={`/accomodation/${accomodation.id}`}>
-								<Card cover={accomodation.cover} title={accomodation.title} />
+							<Link to={`/accomodation/${accomodation.id}`} >
+								<Card cover={accomodation.cover} title={accomodation.title}/>
 							</Link>
 						</div>
 					))}
